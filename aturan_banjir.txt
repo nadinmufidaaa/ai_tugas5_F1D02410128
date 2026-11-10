@@ -1,0 +1,40 @@
+# Basis pengetahuan: kesiapsiagaan banjir untuk keluarga
+# Format tiap baris (dipisah tanda |):
+#   JUDUL|teks
+#   BATAS|teks
+#   SUMBER|kode|keterangan sumber
+#   TANYA|fakta|kalimat pertanyaan
+#   ATURAN|id|mode|syarat1;syarat2;...|hasil|sumber1,sumber2
+# mode "dan"  = semua syarat harus ada
+# mode "atau" = salah satu syarat cukup
+
+JUDUL|Kesiapsiagaan banjir untuk keluarga
+
+BATAS|Aturan berasal dari 3 dokumen resmi: panduan BPBD Provinsi DKI Jakarta (2020), siaran pers BMKG (12 Sep 2025), dan bab Banjir dari buku saku BNPB. Isinya hanya langkah kesiapsiagaan tingkat keluarga, bukan prediksi banjir. Status siaga pintu air mengacu pada sistem di Jakarta; di daerah lain pakai status siaga dari BPBD setempat. Angka 150 mm per hari adalah batas hujan ekstrem menurut BMKG, bukan batas banjir di semua tempat. Cara menggabungkan beberapa fakta menjadi satu kesimpulan adalah rumusan penyusun. Hasilnya saran awal, bukan keputusan akhir; selalu ikuti peringatan BMKG dan arahan petugas BPBD, RT/RW setempat.
+
+SUMBER|S1|Panduan Kesiapsiagaan Menghadapi Banjir bagi Masyarakat, BPBD Provinsi DKI Jakarta, 2020 (kata pengantar bertanggal September 2020; Cetakan Pertama Oktober 2020). URL: (ISI URL TEMPAT ANDA MENGUNDUH), diakses 11 Nov 2026
+SUMBER|S2|Cuaca Ekstrem Masih Mengintai, BMKG Ingatkan Kesiapsiagaan Nasional, Siaran Pers BMKG, 12 September 2025. https://www.bmkg.go.id/siaran-pers/cuaca-ekstrem-masih-mengintai-bmkg-ingatkan-kesiapsiagaan-nasional, diakses 10 Nov 2026
+SUMBER|S3|Banjir (hlm. 32-39), dalam Buku Saku Tanggap Tangkas Tangguh Menghadapi Bencana, BNPB (tahun terbit tidak tercantum di berkas). Salinan di PPID KKP: https://ppid.kkp.go.id/media/uploads/document_information_public/4._Siaga_Bencana_Banjir.pdf, diakses 10 Nov 2026
+
+TANYA|hujan di atas 150 mm per hari|Apakah curah hujan di atas 150 mm per hari?
+TANYA|hujan lebat terus-menerus|Apakah hujan lebat turun terus-menerus di wilayah Anda atau hulu sungai?
+TANYA|pintu air siaga 3|Apakah status siaga pintu air/sungai terdekat Siaga 3 (Waspada)?
+TANYA|pintu air siaga 2|Apakah status siaga pintu air/sungai terdekat Siaga 2 (Siaga)?
+TANYA|pintu air siaga 1|Apakah status siaga pintu air/sungai terdekat Siaga 1 (Awas)?
+TANYA|tas siaga belum disiapkan|Apakah tas siaga bencana BELUM disiapkan?
+TANYA|rumah di bantaran sungai|Apakah rumah Anda di bantaran sungai atau zona rawan banjir?
+TANYA|ada anggota keluarga rentan|Apakah ada anggota keluarga rentan (sakit, disabilitas, anak-anak, ibu hamil, lansia)?
+TANYA|saluran air tersumbat|Apakah saluran air di sekitar rumah tersumbat?
+TANYA|harus lewat jalan banjir naik kendaraan|Apakah Anda harus melewati jalan yang banjir dengan kendaraan?
+TANYA|air banjir sudah surut|Apakah air banjir sudah surut?
+
+ATURAN|R1|dan|hujan di atas 150 mm per hari|hujan ekstrem|S2
+ATURAN|R2|atau|hujan ekstrem;hujan lebat terus-menerus;pintu air siaga 3|ada potensi banjir|S1,S2,S3
+ATURAN|R3|atau|pintu air siaga 2;pintu air siaga 1|banjir mengancam|S1
+ATURAN|R4|dan|ada potensi banjir;tas siaga belum disiapkan|SIAPKAN TAS SIAGA SEKARANG|S1,S3
+ATURAN|R5|dan|ada potensi banjir;rumah di bantaran sungai|SIAPKAN RUTE EVAKUASI DAN TITIK KUMPUL|S1,S3
+ATURAN|R6|dan|banjir mengancam|EVAKUASI KE TEMPAT AMAN DAN MATIKAN LISTRIK|S1,S3
+ATURAN|R7|dan|banjir mengancam;ada anggota keluarga rentan|EVAKUASI KELOMPOK RENTAN LEBIH DULU|S1
+ATURAN|R8|dan|saluran air tersumbat|BERSIHKAN SALURAN AIR|S1,S2
+ATURAN|R9|dan|harus lewat jalan banjir naik kendaraan|JANGAN BERKENDARA DI WILAYAH BANJIR|S1,S3
+ATURAN|R10|dan|air banjir sudah surut|WASPADA SETELAH BANJIR: LISTRIK, BINATANG BERBISA, JALAN AMBLES|S1,S3
