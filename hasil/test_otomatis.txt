@@ -1,6 +1,6 @@
 LULUS 1. Hujan ekstrem, tas siaga belum ada, saluran tersumbat
 LULUS 2. Negatif: hanya ada anggota keluarga rentan
 LULUS 3. Siaga 2, ada anggota rentan, harus lewat jalan banjir
-LULUS 4. Siaga 3 dan rumah di bantaran sungai
+LULUS 4. Siaga 3 saja (waspada)
 LULUS 5. Air banjir sudah surut
 Gagal: 0

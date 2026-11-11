@@ -1,17 +1,15 @@
-$ java Main
+$ python main.py
 Kesiapsiagaan banjir untuk keluarga
 Jawab y/t.
 1. Apakah curah hujan di atas 150 mm per hari? (y/t) > t
-2. Apakah hujan lebat turun terus-menerus di wilayah Anda atau hulu sungai? (y/t) > t
-3. Apakah status siaga pintu air/sungai terdekat Siaga 3 (Waspada)? (y/t) > t
-4. Apakah status siaga pintu air/sungai terdekat Siaga 2 (Siaga)? (y/t) > t
-5. Apakah status siaga pintu air/sungai terdekat Siaga 1 (Awas)? (y/t) > t
-6. Apakah tas siaga bencana BELUM disiapkan? (y/t) > t
-7. Apakah rumah Anda di bantaran sungai atau zona rawan banjir? (y/t) > t
-8. Apakah ada anggota keluarga rentan (sakit, disabilitas, anak-anak, ibu hamil, lansia)? (y/t) > y
-9. Apakah saluran air di sekitar rumah tersumbat? (y/t) > t
-10. Apakah Anda harus melewati jalan yang banjir dengan kendaraan? (y/t) > t
-11. Apakah air banjir sudah surut? (y/t) > t
+2. Apakah status siaga pintu air/sungai terdekat Siaga 3 (Waspada)? (y/t) > t
+3. Apakah status siaga pintu air/sungai terdekat Siaga 2 (Siaga)? (y/t) > t
+4. Apakah status siaga pintu air/sungai terdekat Siaga 1 (Awas)? (y/t) > t
+5. Apakah tas siaga bencana BELUM disiapkan? (y/t) > t
+6. Apakah ada anggota keluarga rentan (sakit, disabilitas, anak-anak, ibu hamil, lansia)? (y/t) > y
+7. Apakah saluran air di sekitar rumah tersumbat? (y/t) > t
+8. Apakah Anda harus melewati jalan yang banjir dengan kendaraan? (y/t) > t
+9. Apakah air banjir sudah surut? (y/t) > t
 
 Fakta awal: ada anggota keluarga rentan
 
@@ -19,6 +17,6 @@ Siklus 1: tidak ada aturan baru, berhenti
 
 Kesimpulan: tidak ada kesimpulan dari fakta tersebut.
 
-Catatan: Aturan berasal dari 3 dokumen resmi: panduan BPBD Provinsi DKI Jakarta (2020), siaran pers BMKG (12 Sep 2025), dan bab Banjir dari buku saku BNPB. Isinya hanya langkah kesiapsiagaan tingkat keluarga, bukan prediksi banjir. Status siaga pintu air mengacu pada sistem di Jakarta; di daerah lain pakai status siaga dari BPBD setempat. Angka 150 mm per hari adalah batas hujan ekstrem menurut BMKG, bukan batas banjir di semua tempat. Cara menggabungkan beberapa fakta menjadi satu kesimpulan adalah rumusan penyusun. Hasilnya saran awal, bukan keputusan akhir; selalu ikuti peringatan BMKG dan arahan petugas BPBD, RT/RW setempat.
+Catatan: Aturan berasal dari 2 dokumen resmi: panduan BPBD Provinsi DKI Jakarta (2020) dan siaran pers BMKG (12 September 2025). Isinya hanya langkah kesiapsiagaan tingkat keluarga, bukan prediksi banjir. Status siaga pintu air mengacu pada sistem di Jakarta; di daerah lain pakai status siaga dari BPBD setempat. Angka 150 mm per hari adalah batas hujan ekstrem menurut BMKG, bukan batas banjir di semua tempat. Cara menggabungkan beberapa fakta menjadi satu kesimpulan adalah rumusan penyusun. Hasilnya saran awal, bukan keputusan akhir; selalu ikuti peringatan BMKG dan arahan petugas BPBD, RT/RW setempat.
 
 Diagnosa lagi? (y/t) > t
